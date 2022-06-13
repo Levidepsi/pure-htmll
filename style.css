@@ -1,0 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	color: black;
+}
+
+.container {
+	justify-content: center;
+	align-self: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.contents {
+}
+
+h1 {
+	color: #853513;
+}
+
+.welcome {
+	background-color: white;
+	opacity: 0.9;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	/* position: relative; */
+	/* z-index: 9; */
+	position: absolute;
+	top: 30%;
+	font-size: 40px;
+	left: 40%;
+	padding: 20px;
+}
+
+.main-nav {
+	background-image: url("./welcome.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 400px;
+	background-position: 100% 34%;
+	position: relative;
+	/* margin-bottom: 20px; */
+}
+
+.heading {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .backgroundclass {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+} */
+
+/* body */
+.body-content {
+	background-color: #99460c;
+	height: 430px;
+	display: grid;
+	grid-template-columns: 50% 38% 50%;
+	max-width: 100%;
+}
+
+.about {
+	text-align: left;
+	width: 50%;
+	margin: auto;
+	margin-top: 7rem;
+}
+
+.about-image {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.image1 {
+	margin-right: 10px;
+	width: 265px;
+	height: 430px;
+}
+
+.img2 {
+	height: 215px;
+	width: 14rem;
+	margin-bottom: 2px;
+}
+.img3 {
+	height: 13rem;
+	width: 14rem;
+}
+
+.secimg {
+	display: inline-block;
+}
+
+.about h2 {
+	color: #f0b041;
+	font-size: 30px;
+	font-family: "Charis SIL", serif;
+}
+
+.about div {
+	color: #edd7b2;
+}
+
+.menus div img {
+	height: 500px;
+	width: 500px;
+}
+
+.menus {
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	background-color: #edeae4;
+}
+
+.menu {
+	text-align: left;
+	margin-top: 100px;
+}
+
+.menu h2 {
+	text-align: left;
+	color: #f0b041;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.menu ul {
+	display: grid;
+	grid-template-columns: 450px 500px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.specials {
+	font-family: "Charis SIL", serif;
+	color: #99460c !important ;
+	font-size: 30px !important;
+}
+
+.footer {
+	background-color: #99460c;
+	height: 400px;
+	text-align: center;
+}
+
+.footer div {
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.footer h1 {
+	color: #f0b041;
+	font-family: "Charis SIL", serif;
+	font-size: 60px;
+	margin-bottom: 25px;
+}
+
+.footer p {
+	color: wheat;
+}
+
+.landmark {
+	background-color: #edeae4;
+	height: 20px;
+	text-align: center;
+	align-items: center;
+}
